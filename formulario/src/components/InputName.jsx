@@ -1,7 +1,8 @@
 function InputName() {
     return (
         <>
-            <input type="text" name="name" />
+            <label className='form-label'>Nombre</label>
+            <input type="text" className="form-control"/>
         </>
     );
 }

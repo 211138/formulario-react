@@ -1,7 +1,7 @@
 function InputRecoveryEmail() {
     return (
-        <>
-            <input type="email" name="recovery mail" />
+        <>  <label className='form-label'>Correo de Recuperacion</label>
+            <input type="email" name="recoveryMail" className="form-control"/>
         </>
     );
 }

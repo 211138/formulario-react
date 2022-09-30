@@ -1,7 +1,8 @@
 function InputTel() {
     return (
         <>
-            <input type="tel" name="enter telefhone number" />
+            <label className='form-label'>Numero telefonico</label>
+            <input type="tel" name="enterTelefhoneNumber" className="form-control" />
         </>
 
     );

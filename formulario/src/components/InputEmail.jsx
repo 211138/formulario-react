@@ -1,7 +1,8 @@
 function InputEmail() {
     return (
         <>
-            <input type="email" name="email" />
+            <label className='form-label'>Correo electronico</label>
+            <input type="email" name="email" className="form-control" />
         </>
     );
 }

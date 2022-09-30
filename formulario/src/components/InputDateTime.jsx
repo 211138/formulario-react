@@ -1,7 +1,8 @@
 function InputDateTime() {
     return (
         <>
-            <input type="datetime-local" name="enter your date of birth" />
+            <label className='form-label'>Fecha de nacimiento</label>
+            <input type="datetime-local" name="dateOfBirth" className="form-control" />
         </>
     );
 }

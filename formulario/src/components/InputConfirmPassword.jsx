@@ -1,7 +1,8 @@
 function InputConfirmPassword() {
     return (
         <>
-            <input type="password" name="Confirm Password" />
+            <label className='form-label'>Confirme su contraseña</label>
+            <input type="password" name="ConfirmPassword" className="form-control"/>
         </>
     );
 }
